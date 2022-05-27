@@ -1,0 +1,27 @@
+.widget {
+    background: #F7F7F7;
+    margin-bottom: 3.6rem;
+    border-radius: 15px;
+}
+
+.widget__message{
+    border-bottom: 1px solid darken($color: #F7F7F7, $amount: 10%);
+    color:#363D2C;
+    margin: 0;
+    padding: 2.6rem;
+    text-align: center;
+}
+.widget-header {
+    background: #363D2C;
+    opacity: 85%;
+    color: white;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.widget-header__title{
+    margin: 0;
+}

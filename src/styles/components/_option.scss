@@ -1,0 +1,12 @@
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    border-bottom: 1px solid darken($color: #F7F7F7, $amount: 10%);
+}
+.option__text{
+    color: #363D2C;
+    font-size: 1rem;
+    margin: 0;
+    word-break: break-all;
+}

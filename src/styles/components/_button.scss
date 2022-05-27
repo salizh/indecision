@@ -1,0 +1,66 @@
+.big-button {
+    background: #D89B99;
+    border: none;
+    border-bottom: .6rem solid darken($color: #D89B99, $amount: 5%);
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+    padding: 3rem 5rem;
+    border-radius: 50px;
+    width: 100%;
+
+}
+.big-button:hover:enabled{
+    background: #A9C8C9;
+    border-bottom: 0.6rem solid darken($color: #A9C8C9, $amount: 5%)
+}
+.big-button:disabled {
+    opacity: .5;
+}
+.button {
+    background: #D89B99;
+    border: none;
+    border-bottom: .2rem solid darken($color: #D89B99, $amount: 5%);
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.button:hover{
+    background: #A9C8C9;
+    border-bottom: 0.2rem solid darken($color: #A9C8C9, $amount: 5%);
+}
+.button--link {
+    background: none;
+    border: none;
+    color: white;
+    padding: 0;
+    font-weight: bold;
+}
+.button--link:hover {
+    background: none;
+    border-bottom:none;
+    color: darken($color: white, $amount: 10%);
+}
+.button--linked {
+    background: none;
+    border: none;
+    color: #D89B99;
+    padding: 0;
+    font-weight: bold;
+}
+.button--linked:hover {
+    background: none;
+    border-bottom:none;
+    color: darken($color: #D89B99, $amount: 10%);
+}
+
+@media only screen and (max-width: 390px) {
+    .big-button {
+    margin-bottom: 2rem;
+    padding: 1.8rem;
+    }
+    .button {
+    font-size: 12px;
+    }
+}

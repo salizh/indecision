@@ -1,0 +1,29 @@
+.add-option-error{
+    color: #363D2C;
+    font-style: italic;
+    margin: 0.8rem 0 0 0;
+    padding: 0.8rem 2rem;
+}
+.add-option {
+    display: flex;
+    padding: 0.8rem;
+
+}
+.add-option__input{
+    flex-grow: 1;
+    border-radius: 15px;
+    color: #363D2C;
+    border: none;
+    border-bottom: 0.2rem solid darken($color:#F7F7F7, $amount: 10%);
+    margin: 0 0 .8rem 0;
+    margin-right: 0.8rem;
+    padding: 0.8rem;
+}
+@media only screen and (max-width: 390px) {
+    .add-option{
+        flex-direction: row;
+    }
+    .add-option__input{
+        margin: 0 .8rem 0 0;
+    }
+}

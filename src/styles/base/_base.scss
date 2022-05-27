@@ -1,0 +1,17 @@
+html {
+    font-size: 85%;
+}
+body {
+    font-family: Tahoma, Verdana, sans-serif
+}
+button {
+    cursor: pointer;
+}
+button:disabled {
+    cursor: default;
+}
+@media only screen and (max-width: 390px) {
+    html {
+        font-size: 70%;
+    }
+}
